@@ -9,7 +9,8 @@
 </head>
 <body>
     <div class="container">
-       
+
+        <div class="arrow"><i class="fa-solid fa-arrow-left"></i></div>
         <div class="logo"><i class="fa-solid fa-capsules"></i></div>
         <h2>Pharmacy Order Management</h2>
         <p id="sele">Select your role</p>
@@ -17,7 +18,19 @@
             <button class="admin btn"><i class="fa-solid fa-key"></i>Admin Login</button>
             <button class="salesman btn"><i class="fa-regular fa-user"></i>Salesman Login</button>
         </div>
+        <div class="sign">
+            <input type="text"  class="entry" id="username" placeholder="Username">
+            <input type="password" class="entry"  id="password" placeholder="Password">
+            <i class="fa-regular fa-eye look"></i>
+            <i class="fa-regular fa-eye-slash look"></i>
+            <input type="password" class="entry" id="key" placeholder="Key">
+            <p id="forget">Forget Password?</p>
+            <button class="btn enter" >Login In</button>
+            <p>Don't have an account?<span id="signUp"><a href="">Sign Up</a></span></p>
+        </div>
         <p class="footer fade-in delay-3">Powered by Local Storage</p> 
     </div>
+
+    <script src="./script.js"></script>
 </body>
 </html>
