@@ -80,3 +80,5 @@ document.addEventListener("click", (e) => {
         visible.style.visibility = "hidden";
     }
 })
+
+//Stock Graph
