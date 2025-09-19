@@ -29,6 +29,8 @@ admin.addEventListener("click", () => {
     enter.style.background  = "linear-gradient(135deg, #2196F3, #0D47A1)";
     btns.style.marginBottom  = "10px";
     container.style.height = "600px"
+    visible.style.top  = "30%";
+    hidden.style.top  = "30%";
     show();
 })
 
@@ -40,7 +42,7 @@ salesman.addEventListener("click", () => {
     btns.style.marginBottom  = "14px";
     container.style.height   = "650px";
     arrow.style.display  = "flex";
-    visible.style.top  = "25%";
+    visible.style.top  = "26%";
     hidden.style.top  = "25%";
 })
 
